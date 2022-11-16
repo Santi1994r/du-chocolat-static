@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 
 <head>
     <meta charset="UTF-8">
@@ -64,7 +64,7 @@
                         <h1 class="titPrinc text-center mt-4">¡Bienvenido!</h1>
                         <p class="m-2 text-center my-4">Nos esforzamos día a día para ofrecerte los mejores postres
                             órganicos y 100% artesanales </p>
-                        <button type="button" class="btn btnPedido mt-3">
+                        <button type="button" class="btn btnPedido">
                             ¡Quiero hacer un pedido!
                         </button>
                     </div>
@@ -74,63 +74,34 @@
         <!-- SEC 2 -->
         <section class="container sec-2" id="seccion-2">
             <div class="row d-flex justify-content-center">
-                <div class="col-5 d-flex flex-column align-items-center">
+                <div class="col-6 d-flex flex-column align-items-center">
                     <h2 class="mt-3 titSec2">NOSOTROS</h2>
-                    <p class="mt-4 parrafSec-2">Somos un emprendimiento liderado principalmente por mujeres, que inició hace más de
+                    <p class="mt-4 parrafSec-2">Somos un emprendimiento liderado principalmente por mujeres, que inició
+                        hace más de
                         17 años, realizando productos a base de cacao y chocolate.
                     </p>
-                    <p class="mt-3 parrafSec-2">Actualmente buscamos generar la experiencia a traves de nuestra gran variedad de
+                    <p class="mt-3 parrafSec-2">Actualmente buscamos generar la experiencia a traves de nuestra gran
+                        variedad de
                         productos de chocolateria y reposteria.
                     </p>
-                    <img src="./assets/images/tortaSec2.png" class="mt-2 imgSec2" alt="">
+                    <img src="./assets/images/tortaSec2.png" class="mt-2 imgSec2-torta" alt="">
                 </div>
-                <div class="col-5">
-                    <img src="./assets/images/galletasSec2.png" class="imgSec2" alt="">
+                <div class="col-6">
+                    <img src="./assets/images/galletasSec2.png" class="imgSec2-galletas" alt="">
                     <h2 class="text-center my-4 titSec2Dancing">Postres 100% artesanales</h2>
-                    <p class="titSec2 parrafSec-2">Elaborados de forma artesanal sin saborizantes ni preservantes artificiales, con ingredientes
+                    <p class="titSec2 parraf-galletas">Elaborados de forma artesanal sin saborizantes ni preservantes
+                        artificiales, con ingredientes
                         selectos y organicos.
                     </p>
-                    <p class="mt-3 titSec2 parrafSec-2">Ademas tenemos un compromiso con el medio ambiente, por lo que nuestros procesos reducen al
+                    <p class="mt-3 titSec2 parraf-galletas">Ademas tenemos un compromiso con el medio ambiente, por lo que
+                        nuestros procesos reducen al
                         minimo el consumo de plasticos u otros elementos que no sean biodegradables, salvo que estos
                         sean indispensables para la conservacion adecuada del producto.
                     </p>
                 </div>
             </div>
         </section>
-        <!-- <section class="sec-2 container" id="seccion-2">
-            <div class="row">
-                <div class="nosotrosSeccion1 col">
-                    <h2 class="nosotrosTitulo">Nosotros</h2>
-                    <p class="parrafoSec2">
-                        Somos un emprendimiento liderado principalmente por mujeres, que inicio hace más de 17 años,
-                        realizando productos a base de cacao y chocolate.
-                    </p>
-                    <br>
-                    <p class="parrafoSec2">
-                        Actualmente buscamos generar la experiencia a traves de nuestra gran variedad de productos de
-                        chocolateria y reposteria.
-                    </p>
-                    <img src="./assets/images/tortaSec2.png" alt="torta de limon" class="nosotrosFoto1">
-                </div>
-                <div class="nosotrosSeccion2 col">
-                    <img src="./assets/images/galletasSec2.png" alt="galletas con pepas de chocolate" class="nosotrosFoto2">
-                    <h2 class="nosotrosTitulo2">Postres 100% artesanales</h2>
-                    <br>
-                    <div class="textoNosotros2">
-                        <p class="parrafoSec2">
-                            Elaborados de forma artesanal sin saborizantes ni preservantes artificiales, con ingredientes
-                            selectos y organicos.
-                        </p>
-                        <br>
-                        <p class="parrafoSec2">
-                            Ademas tenemos un compromiso con el medio ambiente, por lo que nuestros procesos reducen al
-                            minimo el consumo de plasticos u otros elementos que no sean biodegradables, salvo que estos
-                            sean indispensables para la conservacion adecuada del producto.
-                        </p>
-                    </div>
-                </div>
-            </div>
-        </section> -->
+    
         <!-- SEC 3 -->
         <section class="sec-3" id="seccion-3">
             <h3 class="tituloCarta">Lo que hacemos</h3>
@@ -179,7 +150,8 @@
                     </div>
                     <div class="textosCard">
                         <h4 class="tituloCard">Chocolates</h4>
-                        <p class="parrafoCard p-3">Disfruta de nuestra gran variedad de bombones, trufas, habanos y tabletas
+                        <p class="parrafoCard p-3">Disfruta de nuestra gran variedad de bombones, trufas, habanos y
+                            tabletas
                             de chocolate, a base de cacao orgánico, con exquisitos frutos secos, deshidratados y
                             rellenos caseros.</p>
                     </div>
@@ -371,22 +343,43 @@
         </section>
     </main>
     <!-- FOOTER -->
-    <footer class="container-fluid fondoFooter d-flex">
-        <img src="./assets/images/Logofooter.svg" class="logoFooter" alt="">
-        <div class="col d-flex flex-column">
-            <h6 class="contacFooter">¡Contáctanos!</h6>
-            <p>Horario: 09:00 - 9:00pm</p>
-        </div>
-        <div class="col">
-            <div>
-                <img src="./assets/images/Whatsapp.svg" alt="">
-                <div>
-                    <p>WhatsApp:</p>
-                    <p>991672404</p>
+    <footer class="container-fluid fondoFooter">
+        <div class="d-flex">
+            <img src="./assets/images/Logofooter.svg" class="logoFooter" alt="">
+            <div class="col d-flex flex-column justify-content-start align-items-start mx-5">
+                <h6 class="contacFooter my-3">¡Contáctanos!</h6>
+                <p class="mt-3 text-white fs-5">Horario: 09:00 - 9:00pm</p>
+            </div>
+            <div class="col">
+                <div class="d-flex mt-3">
+                    <img src="./assets/images/Whatsapp.svg" alt="">
+                    <div>
+                        <p class="mx-4 whatsAppParraf text-white">WhatsApp:</p>
+                        <p class="mx-4 whatsAppParraf text-white">991672404</p>
+                    </div>
+                </div>
+                <div class="d-flex mt-2">
+                    <img src="./assets/images/instagram.svg" alt="">
+                    <div>
+                        <p class="mx-4 text-white">@duchocolat_peru</p>
+                    </div>
+                </div>
+                <div class="d-flex mt-2">
+                    <img src="./assets/images/mail.svg" alt="">
+                    <div>
+                        <p class="mx-4 text-white">du.chocolat.pedidos@gmail.com</p>
+                    </div>
                 </div>
             </div>
+
+        </div>
+        <div class="d-flex justify-content-center align-items-start">
+            <img class="imgFooter" src="./assets/images/vectorRecortadoFooter.svg" alt="">
         </div>
     </footer>
+
+
+    <!-- ----------------------------------------------------------------------- -->
 
     <!-- ----BOOTSTRAP--- -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
