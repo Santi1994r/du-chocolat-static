@@ -355,8 +355,8 @@ header {
 }
 .imgFooter {
     width: 78rem;
-    /* position: relative;
-    bottom: 10rem; */
+    position: absolute;
+    top: 232rem;
 }
 /* ---------Fin de Footer---------- */
 
