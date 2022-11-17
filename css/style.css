@@ -6,6 +6,12 @@
     margin: 0;
     padding: 0;
 }
+#seccion-3 {
+    height: 3rem;
+}
+#seccion-4 {
+    height: 1.8rem;
+}
 
 
 /* HEADER */
