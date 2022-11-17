@@ -402,7 +402,8 @@ main {
     margin: 0;
 }
 .imgFooter {
-    width: 78rem;
+    width: 100%;
+    /* width: 78rem; */
     position: absolute;
     top: 230.8rem;
 }
