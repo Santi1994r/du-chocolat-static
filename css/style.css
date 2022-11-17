@@ -384,9 +384,11 @@ main {
 /* ---------Footer---------- */
 .fondoFooter {
     /* background-color: #975C3E; */
+    background-image: url(../assets/images/vectores30.png);
     background-position: center;
     background-repeat: no-repeat;
-    background-image: url(../assets/images/vectores30.png);
+    background-size: cover;
+    width: 100%;
 
 }
 .logoFooter {
