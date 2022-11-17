@@ -360,6 +360,10 @@ main {
 .btnWhatsApp:hover {
     background-color: #DC8F0C;
 }
+.fontDancing {
+    font-family: 'Dancing Script';
+    font-size: 2.6rem;
+}
 /* ---------Fin Seccion 4---------- */
 
 /* ---------Footer---------- */
