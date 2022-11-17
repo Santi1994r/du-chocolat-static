@@ -179,6 +179,13 @@ main {
     display: flex;
     justify-content: center;
 }
+
+#seccion-3 {
+    margin-top: 25rem;
+}
+.parrafoCard {
+
+}
 /* FIN SECCION 3 */
 
 /* CARDS */
@@ -206,8 +213,7 @@ main {
     font-family: 'Dancing Script', cursive;
     font-size: 40px;
     font-weight: 400;
-    line-height: 48px;
-    letter-spacing: -0.04em;
+    margin: 0;
 }
 
 .textosCard {
@@ -217,7 +223,6 @@ main {
     line-height: 100%;
     text-align: center;
 }
-
 
 /* CAROUSEL */
 
@@ -277,8 +282,9 @@ main {
 
 .btnCarta {
     background-color: #623518;
+    padding: .8rem;
     color: #fff;
-    width: 15rem;
+    width: 18rem;
     position: relative;
     top: 40px;
     filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
