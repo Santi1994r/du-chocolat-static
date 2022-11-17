@@ -44,6 +44,11 @@ header {
     height: 30px;
 }
 
+.aHeader:hover {
+    color: #FAA618;
+}
+
+
 .logo {
     position: relative;
     top: 70px;
@@ -103,12 +108,18 @@ header {
     font-family: "Jost";
     font-weight: 400;
     font-size: 1.2rem;
+    filter: drop-shadow(0 4px 2px rgba(0, 0, 0, 0.25));
 }
 
-.btnCarta,
 .btnPedido:hover {
-    color: grey;
+    background-color: #4A2F1E;
+    color: #fff;
 }
+.btnCarta:hover {
+    background-color: #4A2F1E;
+    color: #fff;
+}
+
 /* ---------Fin Seccion 1---------- */
 
 
@@ -310,9 +321,15 @@ header {
 
 .btnSecc4 {
     background-color: #623518;
+    border-radius: .7rem;
+    padding: .8rem;
     color: #fff;
     width: 9rem;
     filter: drop-shadow(0 4px 2px rgba(0, 0, 0, 0.25));
+}
+.btnSecc4:hover {
+    background-color: #4A2F1E;
+    color: #fff;
 }
 
 .textoEnFlecha {
@@ -331,7 +348,13 @@ header {
 
 .btnWhatsApp {
     background-color: #FAA618;
-    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    border-radius: 1rem;
+    filter: drop-shadow(0px 4px 2px rgba(0, 0, 0, 0.25));
+    padding: .8rem;
+}
+
+.btnWhatsApp:hover {
+    background-color: #DC8F0C;
 }
 /* ---------Fin Seccion 4---------- */
 
@@ -358,7 +381,7 @@ header {
 .imgFooter {
     width: 78rem;
     position: absolute;
-    top: 232rem;
+    top: 233rem;
 }
 /* ---------Fin de Footer---------- */
 
