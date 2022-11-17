@@ -383,7 +383,11 @@ main {
 
 /* ---------Footer---------- */
 .fondoFooter {
-    background-color: #975C3E;
+    /* background-color: #975C3E; */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image: url(../assets/images/vectores30.png);
+
 }
 .logoFooter {
     width: 16rem;
@@ -409,13 +413,15 @@ main {
     /* position: absolute;
     bottom: 0; */
 }
-.prueba {
+/* .prueba {
     position: absolute;
     z-index: 10;
 
-}
+} */
 .prueba2 {
-    height: 16rem;
+   /*  background-color: red; */
+    /* background-image: url(../assets/images/vectores15.svg); */
+    /* height: 16rem; */
 }
 /* ---------Fin de Footer---------- */
 
